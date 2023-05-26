@@ -1,0 +1,17 @@
+/* menu template stylization */
+.fo-menu-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .filter-option {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .filter-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }

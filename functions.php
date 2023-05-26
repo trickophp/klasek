@@ -163,7 +163,7 @@ function fo_register_proizvodi_cpt_taxonomies() {
         'show_admin_column' => true,
         'show_in_rest'     => true,
         'query_var'         => true,
-        'rewrite'           => [ 'slug' => 'vrsta' ],
+        'rewrite'           => [ 'slug' => 'meni' ],
     );
     register_taxonomy( 'vrsta', [ 'proizvodi' ], $args );
 
@@ -182,5 +182,12 @@ function fo_enqueue_styles_scripts() {
 }
 add_action('wp_enqueue_scripts', 'fo_enqueue_styles_scripts');
 
+function fo_get_product_excerpt($post_id) {
+	$product_description = get_field('product_description', $post_id);
+	$excerpt = substr($product_description, 0, 90) . "...";
 
- ?>
+	return $excerpt;
+}
+
+
+?>
