@@ -15,3 +15,103 @@
     font-weight: bold;
     margin-right: 5px;
   }
+
+/* home page */
+h1 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 71px;
+  color: #FFFFFF;
+}
+
+h2{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+
+  color: #0C102A;
+}
+
+p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.hero {
+  min-height: 900px;
+  padding: 150px;
+
+  background: url("/wp-content/uploads/2023/06/Backgroound.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-primary {
+  padding: 19px 47px;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #23212A;
+}
+
+.benefits {
+  padding: 120px 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.benefits-numbers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.categories-products {
+  padding: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.category-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services {
+  padding: 120px;
+
+  background: #FCB500;
+  opacity: 0.9;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services-numbers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

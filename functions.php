@@ -163,7 +163,7 @@ function fo_register_proizvodi_cpt_taxonomies() {
         'show_admin_column' => true,
         'show_in_rest'     => true,
         'query_var'         => true,
-        'rewrite'           => [ 'slug' => 'meni' ],
+        'rewrite'           => [ 'slug' => 'katalog' ],
     );
     register_taxonomy( 'vrsta', [ 'proizvodi' ], $args );
 
@@ -188,6 +188,5 @@ function fo_get_product_excerpt($post_id) {
 
 	return $excerpt;
 }
-
 
 ?>
