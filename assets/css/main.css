@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* menu template stylization */
 .fo-menu-filters {
     display: flex;
@@ -76,10 +82,26 @@ p {
   flex-direction: column;
 }
 
+.benefits p {
+  max-width: 700px;
+  text-align: center;
+}
+
 .benefits-numbers {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  gap: 100px;
+}
+
+.benefits-number-box {
+  max-width: 300px;
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .categories-products {
