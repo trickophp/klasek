@@ -5,7 +5,7 @@
         <div class="hero-copy">
             <h1>Your Gateway to any Destination in the World</h1>
             <p>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </p>
-            <a class="primary-btn" href="#">Svi Proizvodi</a>
+            <a class="btn-primary" href="#">Svi Proizvodi</a>
         </div>
     </div>
 
@@ -31,20 +31,37 @@
     <div class="categories-products">
         <h2>Kategorije proizvoda</h2>
         <div class="category-boxes">
-            <div class="category-box-petarde">
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/petarde.png" alt="">
                 <h3>Petarde</h3>
             </div>
-            <div class="category-box-vatrometi">
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/vatrometi.png" alt="">
                 <h3>Vatrometi</h3>
             </div>
-            <div class="category-box-rakete">
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/rakete.png" alt="">
                 <h3>Rakete</h3>
             </div>
-            <div class="category-box-rimske-svece">
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/rimske-svece.png" alt="">
                 <h3>Rimske sveće</h3>
             </div>
-            <div class="category-box-dim">
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/dim.png" alt="">
                 <h3>Dim</h3>
+            </div>
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/scenska-pirotehnika.png" alt="">
+                <h3>Scenska pirotehnika</h3>
+            </div>
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/fontane.png" alt="">
+                <h3>Fontane</h3>
+            </div>
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/svetleci-stapici.png" alt="">
+                <h3>Svetleći štapići</h3>
             </div>
         </div>
         <a class="btn-primary" href="#">Svi Proizvodi</a>
@@ -76,7 +93,7 @@
     </div>
 
     <div class="about-us">
-        <div class="about-us-image"></div>
+        <div class="about-us-image"><img src="/wp-content/uploads/2023/06/about-us-home-scaled.jpg" alt=""></div>
         <div class="about-us-copy">
             <h2>O nama</h2>
             <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.  Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking.</p>
