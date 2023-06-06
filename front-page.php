@@ -95,7 +95,7 @@
     <div class="about-us">
         <div class="about-us-image"><img src="/wp-content/uploads/2023/06/about-us-home-scaled.jpg" alt=""></div>
         <div class="about-us-copy">
-            <h2>O nama</h2>
+            <h2>O nam</h2>
             <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.  Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking.</p>
             <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. </p>
             <a class="btn-primary" href="#">Saznaj više</a>
