@@ -101,6 +101,33 @@
             <a class="btn-primary" href="#">Saznaj više</a>
         </div>
     </div>
+
+    <div class="blog-homepage">
+        <?php // the query
+            $the_query = new WP_Query( array(
+                'posts_per_page' => 3,
+            )); 
+        ?>
+
+        <?php if ( $the_query->have_posts() ) : ?>
+        <div class="hp-blog-posts-wrapper">
+            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                <div class="hp-single-post-card">
+                    <div class="hp-post-card-image"><?php the_post_thumbnail() ?></div>
+                    <div class="hp-post-card-copy">
+                        <h3><?php the_title(); ?></h3>
+                        <p><?php the_excerpt(); ?></p>
+                    </div>
+                </div>
+            <?php endwhile; ?>
+        </div>
+        <?php wp_reset_postdata(); ?>
+
+        <?php else : ?>
+        <p><?php __('No News'); ?></p>
+        <?php endif; ?>
+    </div>
+
 </div>
 
 <?php get_footer(); ?>

@@ -586,6 +586,33 @@ header {
   gap: 20px;
 }
 
+.hp-blog-posts-wrapper {
+  padding: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.hp-single-post-card {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.hp-post-card-copy {
+  max-width: 500px;
+}
+
+.hp-post-card-image img {
+  width: 500px;
+  height: 300px;
+}
+
 /* Footer style */
 
 footer {
