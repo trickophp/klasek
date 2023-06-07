@@ -588,6 +588,7 @@ header {
 
 .hp-blog-posts-wrapper {
   padding: 120px;
+  background: #f5f5f5;
 
   display: flex;
   justify-content: center;
@@ -616,7 +617,7 @@ header {
 /* Footer style */
 
 footer {
-  padding: 84px 0 78px;
+  padding: 84px 100px 78px;
   background: #011627;
 }
 
@@ -632,6 +633,12 @@ padding-left: 0!important;
 footer .container {
   display: flex;
   justify-content: space-between;
+}
+
+footer .footer-copy {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
 }
 
 .footer-logo img {

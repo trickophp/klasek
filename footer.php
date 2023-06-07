@@ -20,29 +20,24 @@
                     </a>
                 </div>
             </div>
-            <div class="company">
-                <p>Svi proizvodi</p>
-                <ul>
-                    <li><a href="/o-nama/">O nama</a></li>
-                    <li><a href="/akademija/">Akademija za edukaciju</a></li>
-                    <li><a href="/qr-patrol/">QR-Patrol</a></li>
-					<li><a href="/konsalting/">Konsalting</a></li>
-                </ul>
-            </div>
-            <div class="other">
-                <ul>
-                    <li><a href="/kako-prepoznati-da-je-vase-dete-zrtva-internet-nasilja/">Internet Nasilje</a></li>
-                    <li><a href="/sitemap/">Sitemap</a></li>
-                    <li><a href="/privacy-policy/">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div class="contact">
-                <p>Kontakt</p>
-                <ul>
-                    <li><a href="tel:0654474744">Telefon: <span>+381 65 447 4744</span></a></li>
-                    <li><a href="mailto: mail@mail.com">Podrška: <span>mail@mail.com</span></a></li>
-                    <li><a href="/kontakt/">Online Kontakt Forma</a></li>
-                </ul>
+            <div class="footer-copy">
+                <div class="company">
+                    <p>Svi proizvodi</p>
+                    <ul>
+                        <li><a href="/proizvodi/">Petarde</a></li>
+                        <li><a href="/proizvodi/">Vatrometi</a></li>
+                        <li><a href="/proizvodi/">Dim</a></li>
+                        <li><a href="/proizvodi/">Prikazi sve proizvode</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <p>Kontakt</p>
+                    <ul>
+                        <li><a href="tel:0654474744">Telefon: <span>+381 65 447 4744</span></a></li>
+                        <li><a href="mailto: mail@mail.com">Podrška: <span>mail@mail.com</span></a></li>
+                        <li><a href="/kontakt/">Online Kontakt Forma</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
