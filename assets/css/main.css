@@ -470,10 +470,14 @@ header {
   text-align: center;
 }
 
+.benefits-icon img {
+  max-width: 50px;
+}
+
 .benefits-numbers {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 100px;
 }
 
@@ -485,6 +489,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
 }
 
 .categories-products {

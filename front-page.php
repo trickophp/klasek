@@ -3,27 +3,27 @@
 <div class="main-content">
     <div class="hero">
         <div class="hero-copy">
-            <h1>Your Gateway to any Destination in the World</h1>
-            <p>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </p>
+            <h1>Klasek pirotehnika</h1>
+            <p>Klasek pirotehnika kao prioritet postavlja kvalitet, cenu, sigurnost i pouzdanost. Klasek pirotehnika izrađena je u skladu sa Evropskim direktivama i poseduje CE sertifikate.</p>
             <a class="btn-primary" href="#">Svi Proizvodi</a>
         </div>
     </div>
 
     <div class="benefits">
         <h2>Benefiti</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Kvalitet nadmašuje standarde u odnosu na cene proizvoda istih kategorija drugih proizvođača. Svaki kupac dobija maksimum za svoj novac a to su jačina, kvalitetan i čist efekat.</p>
         <div class="benefits-numbers">
             <div class="benefits-number-box">
-                <h3>Icon</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                <div class="benefits-icon"><img src="/wp-content/uploads/2023/06/star-inside-circle.png"></div>
+                <p>Potrebama svakog klijenta pristupamo individualno, ispunjavajući i najviše zahteve. Garantujemo punu profesionalnost i uvek nudimo dobre savete.</p>
             </div>
             <div class="benefits-number-box">
-                <h3>Icon</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                <div class="benefits-icon"><img src="/wp-content/uploads/2023/06/gears-icon.png"></div>
+                <p>Godinama se bavimo pirotehnikom. Posedujemo neophodno iskustvo koje nam omogućava da ispunimo očekivanja svakog našeg klijenta!</p>
             </div>
             <div class="benefits-number-box">
-                <h3>Icon</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                <div class="benefits-icon"><img src="/wp-content/uploads/2023/06/euro-icon.png"></div>
+                <p>Jedini smo srpski distributer Klasek vatrometa. To znači da možemo ponuditi pirotehničke proizvode najvišeg kvaliteta po najnižoj ceni!</p>
             </div>
         </div>
     </div>
