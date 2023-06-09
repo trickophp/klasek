@@ -521,6 +521,11 @@ header {
   gap: 10px;
 }
 
+.category-box img:hover {
+  border-radius: 28px;
+  background: #F2950A;
+}
+
 .home-contact {
   padding: 100px;
   display: flex;
@@ -587,12 +592,19 @@ header {
 
 .hp-about-us-background {
   position: absolute;
+  background: #091242;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
 }
 
 .about-us-image img{
   max-width: 760px;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 5;
+  position: relative;
 }
 
 .about-us-copy{
@@ -611,15 +623,25 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 50px;
+  gap: 80px;
 }
 
 .hp-single-post-card {
+  position: relative;
   max-width: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 80px;
+}
+
+.hp-post-card-brake {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  width: 100%;
+  height: 1px;
+  background: #D6D6D6;
 }
 
 .hp-post-card-copy {
@@ -633,9 +655,40 @@ header {
 
 /* Footer style */
 
+.free-consultations {
+  position: relative;
+  padding: 80px 0 80px;
+  background: url("/wp-content/uploads/2023/06/homepage-contact-bg.png");
+  background-size: cover;
+}
+
+.footer-background-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.free-consultations h2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.free-consultations .container {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 footer {
   padding: 84px 100px 78px;
-  background: #011627;
+  background: #091242;
 }
 
 footer * {
@@ -713,7 +766,7 @@ footer .container > div ul li a span {
 }
 
 .copyright {
-  background: #011627;
+  background: #091242;
 }
 
 .copyright p {
@@ -727,6 +780,37 @@ footer .container > div ul li a span {
 .copyright p {
   color: #fff;
   text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1260px) {
+  .free-consultations-form {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+    .free-consultations {
+        padding: 50px 30px;
+    }
+    
+    .free-consultations .container {
+        flex-direction: column;
+        padding: 0!important;
+    }
+
+    .free-consultations .nf-form-content {
+      padding: 0!important;
+    }
+
+    .free-consultations-form {
+        margin-left: 0;
+    }
+
+    html .free-consultations-form .nf-form-cont {
+        width: 100vw;
+        padding: 0 30px;
+    }
 }
 
 @media screen and (max-width: 880px) {

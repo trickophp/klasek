@@ -32,39 +32,39 @@
         <h2>Kategorije proizvoda</h2>
         <div class="category-boxes">
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/petarde.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/petarde.png" alt=""></a>
                 <h3>Petarde</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/vatrometi.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/vatrometi.png" alt=""></a>
                 <h3>Vatrometne kutije</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/rakete.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/rakete.png" alt=""></a>
                 <h3>Rakete</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/rimske-svece.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/rimske-svece.png" alt=""></a>
                 <h3>Rimske sveće</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/dim.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/dim.png" alt=""></a>
                 <h3>Dimovi i baklje</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/scenska-pirotehnika.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/scenska-pirotehnika.png" alt=""></a>
                 <h3>Scenska pirotehnika</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/fontane.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/fontane.png" alt=""></a>
                 <h3>Vulkani i fontane</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/svetleci-stapici.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/svetleci-stapici.png" alt=""></a>
                 <h3>Prskalice</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/party-program-1.png" alt="">
+                <a href="#"><img src="/wp-content/uploads/2023/06/party-program-1.png" alt=""></a>
                 <h3>Party program</h3>
             </div>
         </div>
@@ -73,7 +73,7 @@
     <div class="home-contact">
         <h2>Ne znate šta da izaberete?</h2>
         <p>Pozovite nas i kažite nam šta želite i mi ćemo izabrati najbolje artikle za vas!</p>
-        <a class="btn-primary" href="">Pozovi nas</a>
+        <a class="btn-primary" href="tel:0654474744">Pozovi nas</a>
     </div>
 
     <div class="services">
@@ -117,6 +117,7 @@
         <div class="hp-blog-posts-wrapper">
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                 <div class="hp-single-post-card">
+                    <div class="hp-post-card-brake"></div>
                     <div class="hp-post-card-image"><?php the_post_thumbnail() ?></div>
                     <div class="hp-post-card-copy">
                         <h3><?php the_title(); ?></h3>

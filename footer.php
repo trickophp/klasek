@@ -1,5 +1,12 @@
 <html>
 <body>
+    <div class="free-consultations">
+        <div class="footer-background-overlay"></div>
+        <div class="container">
+            <h2>KONTAKT</h2>
+            <a class="btn-primary" href="/kontakt/">Kontakt</a>
+        </div>
+    </div>
     <footer>
         <div class="container">
             <div class="info">
@@ -25,16 +32,16 @@
                     <p>Svi proizvodi</p>
                     <ul>
                         <li><a href="/proizvodi/">Petarde</a></li>
-                        <li><a href="/proizvodi/">Vatrometi</a></li>
-                        <li><a href="/proizvodi/">Dim</a></li>
-                        <li><a href="/proizvodi/">Prikazi sve proizvode</a></li>
+                        <li><a href="/proizvodi/">Vatrometne kutije</a></li>
+                        <li><a href="/proizvodi/">Dimovi i baklje</a></li>
+                        <li><a href="/proizvodi/">Prikaži sve proizvode</a></li>
                     </ul>
                 </div>
                 <div class="contact">
                     <p>Kontakt</p>
                     <ul>
                         <li><a href="tel:0654474744">Telefon: <span>+381 65 447 4744</span></a></li>
-                        <li><a href="mailto: mail@mail.com">Podrška: <span>mail@mail.com</span></a></li>
+                        <li><a href="mailto: pirobox11@gmail.com">Podrška: <span>pirobox11@gmail.com</span></a></li>
                         <li><a href="/kontakt/">Online Kontakt Forma</a></li>
                     </ul>
                 </div>
