@@ -37,7 +37,7 @@
             </div>
             <div class="category-box">
                 <img src="/wp-content/uploads/2023/06/vatrometi.png" alt="">
-                <h3>Vatrometi</h3>
+                <h3>Vatrometne kutije</h3>
             </div>
             <div class="category-box">
                 <img src="/wp-content/uploads/2023/06/rakete.png" alt="">
@@ -49,7 +49,7 @@
             </div>
             <div class="category-box">
                 <img src="/wp-content/uploads/2023/06/dim.png" alt="">
-                <h3>Dim</h3>
+                <h3>Dimovi i baklje</h3>
             </div>
             <div class="category-box">
                 <img src="/wp-content/uploads/2023/06/scenska-pirotehnika.png" alt="">
@@ -57,47 +57,51 @@
             </div>
             <div class="category-box">
                 <img src="/wp-content/uploads/2023/06/fontane.png" alt="">
-                <h3>Fontane</h3>
+                <h3>Vulkani i fontane</h3>
             </div>
             <div class="category-box">
                 <img src="/wp-content/uploads/2023/06/svetleci-stapici.png" alt="">
-                <h3>Svetleći štapići</h3>
+                <h3>Prskalice</h3>
+            </div>
+            <div class="category-box">
+                <img src="/wp-content/uploads/2023/06/party-program.png" alt="">
+                <h3>Party program</h3>
             </div>
         </div>
-        <a class="btn-primary" href="#">Svi Proizvodi</a>
     </div>
 
     <div class="home-contact">
-        <h2>Kontakt</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor.</p>
-        <a class="btn-primary" href="">Kontakt</a>
+        <h2>Ne znate šta da izaberete?</h2>
+        <p>Pozovite nas i kažite nam šta želite i mi ćemo izabrati najbolje artikle za vas!</p>
+        <a class="btn-primary" href="">Pozovi nas</a>
     </div>
 
     <div class="services">
         <h2>Naše usluge</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Klasek nije samo veletrgovac vatrometima. Pružamo i razne vrste pirotehničkih usluga!</p>
         <div class="services-numbers">
             <div class="services-number-box">
-                <h3>Icon</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                <div class="services-icon"><img src="/wp-content/uploads/2023/06/flash.png"></div>
+                <p>Na zahtev naših klijenata planiramo i organizujemo efektne i potpuno bezbedne vatromete. Oni su savršen dodatak svakom događaju! Pitajte za organizaciju emisija!</p>
             </div>
             <div class="services-number-box">
-                <h3>Icon</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                <div class="services-icon"><img src="/wp-content/uploads/2023/06/star.png"></div>
+                <p>Ukoliko planirate da organizujete događaj u zatvorenom objektu ili na bini, sigurno će vas zainteresovati naša usluga vezana za organizaciju scenskih pirotehničkih predstava!</p>
             </div>
             <div class="services-number-box">
-                <h3>Icon</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                <div class="services-icon"><img src="/wp-content/uploads/2023/06/cargo-truck.png"></div>
+                <p>Naša saradnja sa klijentom se ne završava u fazi prodaje proizvoda. Takođe obezbeđujemo brz i pouzdan transport kupljene pirotehnike!</p>
             </div>
         </div>
     </div>
 
     <div class="about-us">
+        <div class="hp-about-us-background"></div>
         <div class="about-us-image"><img src="/wp-content/uploads/2023/06/about-us-home-scaled.jpg" alt=""></div>
         <div class="about-us-copy">
             <h2>O nama</h2>
-            <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.  Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking.</p>
-            <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. </p>
+            <p>Firma Klasek Trading osnovana je 1990. godine, a zahvaljujući dugogodišnjem iskustvu i visokom kvalitetu proizvoda postala je vodeći proizvođač i uvoznik amaterske i profesionalne pirotehnike koju distribuira u preko 25 zemalja Evrope. Klasek pirotehnika dostupna je na Srpskom tržištu od 2021 godine.</p>
+            <p>Klasek pirotehnika izrađena je u skladu sa Evropskim direktivama i poseduje CE sertifikate. Za sve artikle zvršena je usaglašenost sa Evropskim standardima a po Srpskim standardima koji su još strožiji od Evropskih.</p>
             <a class="btn-primary" href="#">Saznaj više</a>
         </div>
     </div>

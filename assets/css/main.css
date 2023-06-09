@@ -93,9 +93,9 @@ header {
 .header-logo {
   position: relative;
   z-index: 500;
-  width: 157px;
-  height: 100px;
-  background: url('/wp-content/uploads/2023/01/dmsecurity-logo-transparent.png');
+  width: 187px;
+  height: 90px;
+  background: url('/wp-content/uploads/2023/06/klasek-logo-white.png');
   background-size: cover;
 }
 
@@ -448,12 +448,14 @@ header {
   padding: 19px 47px;
   background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
 
-  font-family: 'Krub';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
 
   color: #23212A;
+}
+
+.btn-primary:hover {
+  background: #FFB629;
 }
 
 .benefits {
@@ -553,6 +555,10 @@ header {
   gap: 100px;
 }
 
+.services-icon img {
+  max-width: 50px;
+}
+
 .services-number-box {
   max-width: 300px;
   margin-top: 50px;
@@ -561,6 +567,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
 }
 
 .services p {
@@ -569,12 +576,17 @@ header {
 }
 
 .about-us {
+  position: relative;
   padding: 120px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 80px;
+}
+
+.hp-about-us-background {
+  position: absolute;
 }
 
 .about-us-image img{

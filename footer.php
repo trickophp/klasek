@@ -3,7 +3,7 @@
     <footer>
         <div class="container">
             <div class="info">
-                <a href="/" class="footer-logo"><img src="/wp-content/uploads/2023/01/dmsecurity-logo-transparent.png" alt="Klasek logo"></a>
+                <a href="/" class="footer-logo"><img src="/wp-content/uploads/2023/06/klasek-logo-white.png" alt="Klasek logo"></a>
                 <p>Unapredite vaše poslovanje uz našu pomoć.</p>
                 <div class="social-icons">
                     <a href="https://www.facebook.com/DMSdigitalTecnology?mibextid=ZbWKwL" target="_blank">
