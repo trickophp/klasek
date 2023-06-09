@@ -64,7 +64,7 @@
                 <h3>Prskalice</h3>
             </div>
             <div class="category-box">
-                <img src="/wp-content/uploads/2023/06/party-program.png" alt="">
+                <img src="/wp-content/uploads/2023/06/party-program-1.png" alt="">
                 <h3>Party program</h3>
             </div>
         </div>
