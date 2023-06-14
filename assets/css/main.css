@@ -4,24 +4,6 @@
   box-sizing: border-box;
 }
 
-/* menu template stylization */
-.fo-menu-filters {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .filter-option {
-    display: inline-block;
-    margin-right: 10px;
-  }
-
-  .filter-label {
-    font-weight: bold;
-    margin-right: 5px;
-  }
-
 /* home page */
 h1 {
   font-family: 'DM Sams';
@@ -844,4 +826,54 @@ footer .container > div ul li a span {
       margin-bottom: 15px;
       margin-top: 25px;
   }
+}
+
+
+/* menu style */
+.fo-menu {
+  display: flex;
+  gap: 100px;
+}
+
+.fo-menu-filters {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.filter-option {
+  margin-bottom: 15px;
+}
+
+.filter-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.category-filter,
+.kalibar-filter {
+  display: none;
+}
+
+.filter-option label {
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.filter-option input[type="checkbox"] + label:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.filter-option input[type="checkbox"]:checked + label:before {
+  background-color: #007bff;
+  border-color: #007bff;
 }
