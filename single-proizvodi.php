@@ -18,3 +18,5 @@ get_header();
 <p><?= $product_description ?></p>
 <?= $product_image ?>
 <p>Cena: <?= $product_price ?> RSD</p>
+
+<?php get_footer(); ?>

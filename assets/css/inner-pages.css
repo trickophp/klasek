@@ -1,0 +1,116 @@
+.fo-menu {
+    display: flex;
+    gap: 100px;
+}
+  
+.fo-menu-filters {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 240px;
+}
+  
+.filter-option {
+    margin-bottom: 15px;
+}
+  
+.filter-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.category-filter,
+.kalibar-filter {
+    display: none;
+}
+  
+.filter-option label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+  
+.filter-option input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+  
+.filter-option input[type="checkbox"]:checked + label:before {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.fo-menu-hero {
+    width: 100%;
+    height: 250px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-page-menu {
+    background: linear-gradient(to right bottom, #fdfcfa, #fdf7f5, #fcf3f4, #f6eff6, #ebedf8);
+}   
+
+.fo-menu {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.fo-menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.fo-product-card {
+    position: relative;
+    overflow: hidden;
+    max-width: 300px;
+    min-height: 360px;
+    padding: 20px 15px;
+    border-radius: 25px 25px 25px 25px;
+    background: #fff;
+    transition: .3s;
+}
+
+.fo-product-card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transition: .3s
+}
+
+.fo-product-card-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    
+    color: #000000;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.fo-product-card img {
+    width: 100%;
+}
+
+.fo-product-description {
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fo-product-serial-number {
+    font-family: 'DM Sans', sans-serif;
+    color: #9c9c9c;
+    font-weight: 400;
+}
