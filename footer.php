@@ -31,9 +31,9 @@
                 <div class="company">
                     <p>Svi proizvodi</p>
                     <ul>
-                        <li><a href="/proizvodi/">Petarde</a></li>
-                        <li><a href="/proizvodi/">Vatrometne kutije</a></li>
-                        <li><a href="/proizvodi/">Dimovi i baklje</a></li>
+                        <li><a href="/proizvodi/petarde/">Petarde</a></li>
+                        <li><a href="/proizvodi/vatrometne-kutije/">Vatrometne kutije</a></li>
+                        <li><a href="/proizvodi/dimovi-i-baklje/">Dimovi i baklje</a></li>
                         <li><a href="/proizvodi/">Prikaži sve proizvode</a></li>
                     </ul>
                 </div>

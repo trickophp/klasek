@@ -5,7 +5,7 @@
         <div class="hero-copy">
             <h1>Klasek pirotehnika</h1>
             <p>Klasek pirotehnika kao prioritet postavlja kvalitet, cenu, sigurnost i pouzdanost. Klasek pirotehnika izrađena je u skladu sa Evropskim direktivama i poseduje CE sertifikate.</p>
-            <a class="btn-primary" href="#">Svi Proizvodi</a>
+            <a class="btn-primary" href="/proizvodi/">Svi Proizvodi</a>
         </div>
     </div>
 
@@ -32,39 +32,39 @@
         <h2>Kategorije proizvoda</h2>
         <div class="category-boxes">
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/petarde.png" alt=""></a>
+                <a href="/proizvodi/petarde/"><img src="/wp-content/uploads/2023/06/petarde.png" alt="Petarde"></a>
                 <h3>Petarde</h3>
             </div>
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/vatrometi.png" alt=""></a>
+                <a href="/proizvodi/vatrometne-kutije"><img src="/wp-content/uploads/2023/06/vatrometi.png" alt=""></a>
                 <h3>Vatrometne kutije</h3>
             </div>
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/rakete.png" alt=""></a>
+                <a href="/proizvodi/rakete"><img src="/wp-content/uploads/2023/06/rakete.png" alt=""></a>
                 <h3>Rakete</h3>
             </div>
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/rimske-svece.png" alt=""></a>
+                <a href="/proizvodi/rimske-svece"><img src="/wp-content/uploads/2023/06/rimske-svece.png" alt=""></a>
                 <h3>Rimske sveće</h3>
             </div>
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/dim.png" alt=""></a>
+                <a href="/proizvodi/dimovi-i-baklje/"><img src="/wp-content/uploads/2023/06/dim.png" alt=""></a>
                 <h3>Dimovi i baklje</h3>
             </div>
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/scenska-pirotehnika.png" alt=""></a>
+                <a href="/proizvodi/scenska-pirotehnika"><img src="/wp-content/uploads/2023/06/scenska-pirotehnika.png" alt=""></a>
                 <h3>Scenska pirotehnika</h3>
             </div>
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/fontane.png" alt=""></a>
+                <a href="/proizvodi/vulkani-i-fontane"><img src="/wp-content/uploads/2023/06/fontane.png" alt=""></a>
                 <h3>Vulkani i fontane</h3>
             </div>
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/svetleci-stapici.png" alt=""></a>
+                <a href="/proizvodi/prskalice"><img src="/wp-content/uploads/2023/06/svetleci-stapici.png" alt=""></a>
                 <h3>Prskalice</h3>
             </div>
             <div class="category-box">
-                <a href="#"><img src="/wp-content/uploads/2023/06/party-program-1.png" alt=""></a>
+                <a href="/proizvodi/party-program"><img src="/wp-content/uploads/2023/06/party-program-1.png" alt=""></a>
                 <h3>Party program</h3>
             </div>
         </div>
@@ -102,7 +102,7 @@
             <h2>O nama</h2>
             <p>Firma Klasek Trading osnovana je 1990. godine, a zahvaljujući dugogodišnjem iskustvu i visokom kvalitetu proizvoda postala je vodeći proizvođač i uvoznik amaterske i profesionalne pirotehnike koju distribuira u preko 25 zemalja Evrope. Klasek pirotehnika dostupna je na Srpskom tržištu od 2021 godine.</p>
             <p>Klasek pirotehnika izrađena je u skladu sa Evropskim direktivama i poseduje CE sertifikate. Za sve artikle zvršena je usaglašenost sa Evropskim standardima a po Srpskim standardima koji su još strožiji od Evropskih.</p>
-            <a class="btn-primary" href="#">Saznaj više</a>
+            <a class="btn-primary" href="/o-nama/">Saznaj više</a>
         </div>
     </div>
 
