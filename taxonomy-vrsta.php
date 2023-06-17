@@ -19,18 +19,19 @@ $term_id = get_queried_object()->term_id;
     </div>
 
     <div class="fo-menu">
-
         <div class="fo-menu-filters">
             <div class="filter-option">
-                <span class="filter-label">Kategorije</span>
-                <?php 
-                    $terms = get_terms('vrsta');
-                    foreach($terms as $term): ?>
-                
-                    <input type="checkbox" id="<?= $term->slug ?>" data-catname="<?= $term->slug ?>" name="category" class="product-filter category-filter">
-                    <label for="<?= $term->slug ?>"><?= $term->name ?></label>
+                <span class="filter-label">Kategorije <img class="filter-dropdown-arrow filter-dropdown-arrow-active" src="/wp-content/uploads/2023/06/arrow-down.webp" alt="Arrow down" width="15" height="10"></span>
+                <div class="category-filter-wrapper category-filter-wrapper-active">
+                    <?php 
+                        $terms = get_terms('vrsta');
+                        foreach($terms as $term): ?>
+                        
+                        <input type="checkbox" id="<?= $term->slug ?>" data-catname="<?= $term->slug ?>" name="category" class="product-filter category-filter" <?= ($term_name == $term->name) ? "checked" : ''; ?>>
+                        <label for="<?= $term->slug ?>"><?= $term->name ?></label>
 
-                <?php endforeach; ?>
+                    <?php endforeach; ?>
+                </div>
             </div>
             <!-- <div class="filter-option">
                 <span class="filter-label">Kalibar</span>

@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-  var loader = $('<div class="loader"><img src="../img/filter_loader.gif" alt="Loading..."></div>');
+  var loader = $('<div class="loader"><img src="/wp-content/uploads/2023/06/filter_loader.gif" alt="Loading..." width="20" height="20"></div>');
   $('.product-filter').change(function(e) {
     e.preventDefault();
 
@@ -47,5 +47,10 @@ jQuery(document).ready(function($) {
         console.log('AJAX request failed.');
       }
     });
+  });
+
+  $('.filter-dropdown-arrow').on('click', function() {
+    $('.category-filter-wrapper').toggleClass('category-filter-wrapper-active');
+    $('.filter-dropdown-arrow').toggleClass('filter-dropdown-arrow-active');
   });
 });
