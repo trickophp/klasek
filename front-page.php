@@ -32,39 +32,39 @@
         <h2>Kategorije proizvoda</h2>
         <div class="category-boxes">
             <div class="category-box">
-                <a href="/proizvodi/petarde/"><img src="/wp-content/uploads/2023/06/petarde.png" alt="Petarde"></a>
+                <a href="/katalog/petarde/"><img src="/wp-content/uploads/2023/06/petarde.png" alt="Petarde"></a>
                 <h3>Petarde</h3>
             </div>
             <div class="category-box">
-                <a href="/proizvodi/vatrometne-kutije"><img src="/wp-content/uploads/2023/06/vatrometi.png" alt=""></a>
+                <a href="/katalog/vatrometne-kutije"><img src="/wp-content/uploads/2023/06/vatrometi.png" alt=""></a>
                 <h3>Vatrometne kutije</h3>
             </div>
             <div class="category-box">
-                <a href="/proizvodi/rakete"><img src="/wp-content/uploads/2023/06/rakete.png" alt=""></a>
+                <a href="/katalog/rakete"><img src="/wp-content/uploads/2023/06/rakete.png" alt=""></a>
                 <h3>Rakete</h3>
             </div>
             <div class="category-box">
-                <a href="/proizvodi/rimske-svece"><img src="/wp-content/uploads/2023/06/rimske-svece.png" alt=""></a>
+                <a href="/katalog/rimske-svece"><img src="/wp-content/uploads/2023/06/rimske-svece.png" alt=""></a>
                 <h3>Rimske sveće</h3>
             </div>
             <div class="category-box">
-                <a href="/proizvodi/dimovi-i-baklje/"><img src="/wp-content/uploads/2023/06/dim.png" alt=""></a>
+                <a href="/katalog/dimovi-i-baklje/"><img src="/wp-content/uploads/2023/06/dim.png" alt=""></a>
                 <h3>Dimovi i baklje</h3>
             </div>
             <div class="category-box">
-                <a href="/proizvodi/scenska-pirotehnika"><img src="/wp-content/uploads/2023/06/scenska-pirotehnika.png" alt=""></a>
+                <a href="/katalog/scenska-pirotehnika"><img src="/wp-content/uploads/2023/06/scenska-pirotehnika.png" alt=""></a>
                 <h3>Scenska pirotehnika</h3>
             </div>
             <div class="category-box">
-                <a href="/proizvodi/vulkani-i-fontane"><img src="/wp-content/uploads/2023/06/fontane.png" alt=""></a>
+                <a href="/katalog/vulkani-i-fontane"><img src="/wp-content/uploads/2023/06/fontane.png" alt=""></a>
                 <h3>Vulkani i fontane</h3>
             </div>
             <div class="category-box">
-                <a href="/proizvodi/prskalice"><img src="/wp-content/uploads/2023/06/svetleci-stapici.png" alt=""></a>
+                <a href="/katalog/prskalice"><img src="/wp-content/uploads/2023/06/svetleci-stapici.png" alt=""></a>
                 <h3>Prskalice</h3>
             </div>
             <div class="category-box">
-                <a href="/proizvodi/party-program"><img src="/wp-content/uploads/2023/06/party-program-1.png" alt=""></a>
+                <a href="/katalog/party-program"><img src="/wp-content/uploads/2023/06/party-program-1.png" alt=""></a>
                 <h3>Party program</h3>
             </div>
         </div>

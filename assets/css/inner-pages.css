@@ -137,6 +137,7 @@
 
 .fo-product-card img {
     width: 100%;
+    max-height: 200px;
 }
 
 .fo-product-description {
@@ -150,6 +151,10 @@
     font-family: 'DM Sans', sans-serif;
     color: #9c9c9c;
     font-weight: 400;
+}
+
+.categories-products h1 {
+    color: #000000;
 }
 
 @media screen and (max-width: 768px) {
