@@ -179,7 +179,14 @@ function fo_enqueue_styles_scripts() {
     wp_register_style('main_style', get_template_directory_uri() . '/assets/css/main.css', array(), _S_VERSION, 'all');
     wp_enqueue_style('main_style');
 
+	if(!is_home()) {
+		wp_register_style('inner_pages_style', get_template_directory_uri() . '/assets/css/inner-pages.css', array(), _S_VERSION, 'all');
+		wp_enqueue_style('inner_pages_style');
+	}
+
     wp_enqueue_script( 'main_script', get_template_directory_uri() . '/assets/js/main.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'filters_script', get_template_directory_uri() . '/assets/js/product-filters.js', array('jquery'), _S_VERSION, true );
+	wp_localize_script('filters_script', 'ajax', array('url' => admin_url('admin-ajax.php')));
 }
 add_action('wp_enqueue_scripts', 'fo_enqueue_styles_scripts');
 
@@ -189,5 +196,52 @@ function fo_get_product_excerpt($post_id) {
 
 	return $excerpt;
 }
+
+function custom_post_filter() {
+  // Retrieve the selected category and kalibar values from the AJAX request
+  $categories = isset($_POST['category']) ? $_POST['category'] : array();
+  $kalibars = isset($_POST['kalibar']) ? $_POST['kalibar'] : array();
+
+  // Perform the search query to get posts based on the selected filters
+  $args = array(
+    'post_type' => 'proizvodi',
+    'tax_query' => array(
+      array(
+        'taxonomy' => 'vrsta',
+        'field' => 'slug',
+        'terms' => $categories
+      )
+    )
+  );
+
+  // if all the filters are unselected display all products
+  if(empty($categories)) {
+	$args = array(
+		'post_type' => 'proizvodi',
+		'posts_per_page' => -1,
+	);
+  }
+
+  $query = new WP_Query($args);
+
+  // Prepare the results to be sent back in the AJAX response
+  $results = '';
+
+  if ($query->have_posts()) {
+    while ($query->have_posts()) {
+      $query->the_post();
+	
+	  ob_start();
+	  get_template_part( 'template-parts/content', 'product' );
+	  $results .= ob_get_contents();
+	  ob_end_clean();
+    }
+  }
+
+  // Return the results in JSON format
+  wp_send_json($results);
+}
+add_action('wp_ajax_custom_post_filter', 'custom_post_filter');
+add_action('wp_ajax_nopriv_custom_post_filter', 'custom_post_filter');
 
 ?>
