@@ -2,6 +2,7 @@
 
 <div class="main-content">
     <div class="hero">
+        <div class="hero-background-overlay"></div>
         <div class="hero-copy">
             <h1>Klasek pirotehnika</h1>
             <p>Klasek pirotehnika kao prioritet postavlja kvalitet, cenu, sigurnost i pouzdanost. Klasek pirotehnika izrađena je u skladu sa Evropskim direktivama i poseduje CE sertifikate.</p>

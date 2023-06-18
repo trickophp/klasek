@@ -60,9 +60,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 100px 10px 130px;
 
-  padding-left: 130px;
-  padding-right: 100px;
   background: #091242;
 }
 
@@ -96,6 +95,10 @@ header {
   text-transform: uppercase;
   
   color: #FFFFFF;
+}
+
+.header-con ul li a:hover {
+  color: #FFB629;
 }
 
 .header-button {
@@ -377,7 +380,6 @@ header {
   }
 
   .header-logo {
-    width: 150px!important;
     height: 99px!important;
   }
 
@@ -397,22 +399,35 @@ header {
 
 @media screen and (max-width: 768px) {
   .header-logo {
-    width: 125px!important;
+    width: 170px!important;
     height: 80px!important;
   }
 }
 /* END burger style */
 
 .hero {
+  position: relative;
   padding: 150px;
 
-  background: url("/wp-content/uploads/2023/06/hero-image.jpg");
+  background: url("/wp-content/uploads/2023/06/pexels-marton-novak-9335100-scaled.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 40%;
+  background-position: 40% 36%;
+}
+
+.hero-background-overlay {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.69);
 }
 
 .hero-copy {
+  position: relative;
+  z-index: 1;
   max-width: 650px;
 
   display: flex;
@@ -434,10 +449,12 @@ header {
   font-size: 16px;
 
   color: #23212A;
+  transition: .3s;
 }
 
 .btn-primary:hover {
-  background: #FFB629;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFB629 58.66%, #FFB629 116.84%);
+  transition: .3s;
 }
 
 .benefits {
@@ -635,10 +652,29 @@ header {
   max-height: 300px;
 }
 
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .about-us-image img {
+    max-width: 630px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  .about-us {
+    flex-direction: column;
+  }
+
+  .hp-about-us-background {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     padding: 50px 30px;
     background: #091242;
+  }
+  .hero-background-overlay {
+    display: none;
   }
   h1 {
     font-size: 40px;
@@ -762,6 +798,13 @@ header {
   flex-direction: column;
 }
 
+.free-consultations-copy {
+  color: #fff;
+  max-width: 540px;
+  text-align: center;
+  margin: 10px 0 25px;
+}
+
 footer {
   padding: 84px 100px 78px;
   background: #091242;
@@ -787,6 +830,15 @@ footer .footer-copy {
   gap: 180px;
 }
 
+footer .footer-copy > div ul li {
+  list-style: none;
+}
+
+footer .footer-copy > div > p {
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+
 .footer-logo img {
   width: 200px;
 }
@@ -801,7 +853,7 @@ footer .info p {
 }
 
 footer .container > div:not(.info) {
-  margin-top: 55px;
+  margin-top: 15px;
 }
 
 footer .container > div:not(.info) > p {
@@ -910,6 +962,10 @@ footer .container > div ul li a span {
 
   footer .contact {
     margin-top: 10px!important;
+  }
+
+  footer .footer-copy {
+    justify-content: flex-start;
   }
 
   footer iframe {

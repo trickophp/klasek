@@ -3,8 +3,9 @@
     <div class="free-consultations">
         <div class="footer-background-overlay"></div>
         <div class="container">
-            <h2>KONTAKT</h2>
-            <a class="btn-primary" href="/kontakt/">Kontakt</a>
+            <h2>KONTAKTIRAJTE NAS</h2>
+            <p class="free-consultations-copy">Imate li pitanja, sugestije ili želite da sarađujete sa nama? Ne ustručavajte se da nas kontaktirate. Naš tim je spreman da vam pomogne!</p>
+            <a class="btn-primary" href="/kontakt/">Pošaljite poruku</a>
         </div>
     </div>
     <footer>
@@ -34,7 +35,7 @@
                         <li><a href="/proizvodi/petarde/">Petarde</a></li>
                         <li><a href="/proizvodi/vatrometne-kutije/">Vatrometne kutije</a></li>
                         <li><a href="/proizvodi/dimovi-i-baklje/">Dimovi i baklje</a></li>
-                        <li><a href="/proizvodi/">Prikaži sve proizvode</a></li>
+                        <li><a href="/proizvodi/">Svi proizvodi</a></li>
                     </ul>
                 </div>
                 <div class="contact">

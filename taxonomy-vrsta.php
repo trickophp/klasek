@@ -10,9 +10,18 @@ global $post;
 
 $term_name = get_queried_object()->name;
 $term_id = get_queried_object()->term_id;
+$hero_section_image = get_field('hero_section_image');
+
+if(wp_is_mobile()):
+    $filter_dropdown_active_class = '';
+    $filter_category_active_class = '';
+else:
+    $filter_dropdown_active_class = 'filter-dropdown-arrow-active';
+    $filter_category_active_class = 'category-filter-wrapper-active';
+endif;
 ?>
 <div class="inner-page-menu">
-    <div class="fo-menu-hero fo-taxonomy-hero">
+    <div class="fo-menu-hero fo-taxonomy-hero" <?php if(!empty($hero_section_image)): ?> style="background: url('<?= $hero_section_image ?>')" <?php endif; ?>>
         <div class="fo-menu-hero-copy fo-taxonomy-hero-copy">
             <h1><?= $term_name; ?></h1>
         </div>
@@ -21,8 +30,8 @@ $term_id = get_queried_object()->term_id;
     <div class="fo-menu">
         <div class="fo-menu-filters">
             <div class="filter-option">
-                <span class="filter-label">Kategorije <img class="filter-dropdown-arrow filter-dropdown-arrow-active" src="/wp-content/uploads/2023/06/arrow-down.webp" alt="Arrow down" width="15" height="10"></span>
-                <div class="category-filter-wrapper category-filter-wrapper-active">
+                <span class="filter-label">Kategorije <img class="filter-dropdown-arrow <?= $filter_dropdown_active_class ?>" src="/wp-content/uploads/2023/06/arrow-down.webp" alt="Arrow down" width="15" height="10"></span>
+                <div class="category-filter-wrapper <?= $filter_category_active_class ?>">
                     <?php 
                         $terms = get_terms('vrsta');
                         foreach($terms as $term): ?>
