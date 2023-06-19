@@ -8,9 +8,10 @@ global $post;
 
 <?php
 
+$term_obj = get_queried_object();
 $term_name = get_queried_object()->name;
 $term_id = get_queried_object()->term_id;
-$hero_section_image = get_field('hero_section_image');
+$hero_section_image = get_field('hero_section_image', $term_obj);
 
 if(wp_is_mobile()):
     $filter_dropdown_active_class = '';
