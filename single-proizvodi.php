@@ -24,14 +24,14 @@ get_header();
         </div>
         <div class="product-info">
             <h1><?php the_title(); ?></h1>
-            <span class="product_additional_info product_serial">Kataloški broj: <?= $product_serial ?></span>
-            <p class="product-description"><?= $product_description ?></p>
-            <span class="product_additional_info product_class">Klasa: <?= $product_class ?></span>
-            <span class="product_additional_info product_packing">Pakovanje: <?= $product_packing ?></span>
+            <?php if(!empty($product_serial)): ?><span class="product_additional_info product_serial">Kataloški broj: <?= $product_serial ?></span><?php endif; ?>
+            <?php if(!empty($product_description)): ?><p class="product-description"><?= $product_description ?></p><?php endif; ?>
+            <?php if(!empty($product_class)): ?><span class="product_additional_info product_class">Klasa: <?= $product_class ?></span><?php endif; ?>
+            <?php if(!empty($product_packing)): ?><span class="product_additional_info product_packing">Pakovanje: <?= $product_packing ?></span><?php endif; ?>
             <span class="product_additional_info product_packing">CE Sertifikovano</span>
-            <span class="product_additional_info product_carton_weight">Težina kartona: <?= $product_carton_weight ?></span>
-            <span class="product_additional_info product_effect_description">Opis efekta: <?= $product_effect_description ?></span>
-            <span class="product_additional_info product_effect_description">Trajanje efekta: <?= $product_effect_duration ?></span>
+            <?php if(!empty($product_carton_weight)): ?><span class="product_additional_info product_carton_weight">Težina kartona: <?= $product_carton_weight ?></span><?php endif; ?>
+            <?php if(!empty($product_effect_description)): ?><span class="product_additional_info product_effect_description">Opis efekta: <?= $product_effect_description ?></span><?php endif; ?>
+            <?php if(!empty($product_effect_duration)): ?><span class="product_additional_info product_effect_description">Trajanje efekta: <?= $product_effect_duration ?></span><?php endif; ?>
             <div class="product-info-hr"></div>
             <div class="order-product">
                 <span class="order-product-text">Poručite proizvod</span>
