@@ -221,22 +221,17 @@
 
 .product_additional_info {
     display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin: 5px 0;
 }
 
 .product_serial {
-    font-family: 'DM Sans', sans-serif;
     color: #9c9c9c;
-    font-weight: 400;
-    margin: 5px 0;
 }
 
 .product-description {
     margin: 5px 0;
-}
-
-.product_class {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
 }
 
 .order-product span {
@@ -295,6 +290,18 @@
 
     .order-product .order-product-text {
         margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .product-summary .product-image img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .related-products h2 {
+        font-size: 40px;
+        line-height: 44px;
     }
 }
 
