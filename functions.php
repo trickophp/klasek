@@ -244,4 +244,12 @@ function custom_post_filter() {
 add_action('wp_ajax_custom_post_filter', 'custom_post_filter');
 add_action('wp_ajax_nopriv_custom_post_filter', 'custom_post_filter');
 
+// Create custom fields
+function klasek_setup_custom_fields()
+{
+    require_once __DIR__ . '/inc/custom-fields/setup-custom-fields.php';
+}
+
+add_action('acf/init', 'klasek_setup_custom_fields');
+
 ?>

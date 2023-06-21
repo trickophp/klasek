@@ -13,6 +13,10 @@ get_header();
         $product_portion = get_field('kolicina_baruta');
         $product_class = get_field('klasa_proizvoda');
         $product_serial = get_field('sifra_proizvoda');
+        $product_packing = get_field('pakovanje');
+        $product_carton_weight = get_field('tezina_kartona');
+        $product_effect_description = get_field('opis_efekta');
+        $product_effect_duration = get_field('trajanje_efekta');
     ?>
     <div class="product-summary">
         <div class="product-image">
@@ -20,9 +24,14 @@ get_header();
         </div>
         <div class="product-info">
             <h1><?php the_title(); ?></h1>
-            <span class="product_additional_info product_serial"><?= $product_serial ?></span>
+            <span class="product_additional_info product_serial">Kataloški broj: <?= $product_serial ?></span>
             <p class="product-description"><?= $product_description ?></p>
             <span class="product_additional_info product_class">Klasa: <?= $product_class ?></span>
+            <span class="product_additional_info product_packing">Pakovanje: <?= $product_packing ?></span>
+            <span class="product_additional_info product_packing">CE Sertifikovano</span>
+            <span class="product_additional_info product_carton_weight">Težina kartona: <?= $product_carton_weight ?></span>
+            <span class="product_additional_info product_effect_description">Opis efekta: <?= $product_effect_description ?></span>
+            <span class="product_additional_info product_effect_description">Trajanje efekta: <?= $product_effect_duration ?></span>
             <div class="product-info-hr"></div>
             <div class="order-product">
                 <span class="order-product-text">Poručite proizvod</span>
