@@ -398,3 +398,25 @@
         margin-top: 10px;
     }
 }
+
+/* Contact */
+
+.contact-page {
+    padding: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+
+    
+}
+
+.contact-page-copy h1 {
+    color: #000000;
+    max-width: 400px;
+}
+
+.contact-page-copy p {
+    max-width: 500px;
+}
