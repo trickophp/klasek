@@ -43,20 +43,22 @@ get_header();
             </div>
         </div>
     </div>
-    <div class="product-video">
-        <div class="product-video-wrapper">
-            <?php
-            if(!empty($product_video_embed) && $product_video_type == 'Embed (link)'):
-                echo $product_video_embed;
-            endif;
+    <?php if(!empty($product_video_embed) || !empty($product_video_media)): ?>
+        <div class="product-video">
+            <div class="product-video-wrapper">
+                <?php
+                if(!empty($product_video_embed) && $product_video_type == 'Embed (link)'):
+                    echo $product_video_embed;
+                endif;
 
-            if(!empty($product_video_media) && $product_video_type == 'Video fajl'): ?>
-                <video controls>
-                    <source src="<?= $product_video_media ?>" type="video/mp4">
-                </video>
-            <?php endif; ?>
+                if(!empty($product_video_media) && $product_video_type == 'Video fajl'): ?>
+                    <video controls>
+                        <source src="<?= $product_video_media ?>" type="video/mp4">
+                    </video>
+                <?php endif; ?>
+            </div>
         </div>
-    </div>
+    <?php endif; ?>
     <div class="related-products">
         <h2>Preporučujemo za vas</h2>
         <?php 

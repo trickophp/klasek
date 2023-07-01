@@ -359,8 +359,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     gap: 80px;
+}
+
+.about-us-container .about-us-copy {
+    flex-direction: row;
 }
 
 .about-us-copy img, .about-us-copy-reverse img {
@@ -392,8 +395,11 @@
         padding: 20px;
     }
     .about-us-copy {
-        flex-direction: column;
         gap: 30px;
+    }
+    .about-us-container .about-us-copy,
+    .about-us-container .about-us-copy-reverse {
+        flex-direction: column-reverse;
     }
     .about-us-copy-reverse {
         flex-direction: column;
