@@ -371,3 +371,52 @@
 .about-us-copy h2, .about-us-copy-reverse h2 {
     font-size: 45px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .about-hero {
+        padding: 70px;
+    }
+    .about-us-container {
+        padding: 20px;
+    }
+    .about-us-copy {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-us-copy-reverse {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-us-copy img, .about-us-copy-reverse img {
+        max-width: 320px;
+    }
+    .about-us-copy h2, .about-us-copy-reverse h2 {
+        font-size: 40px;
+    }
+    .about-us-copy p, .about-us-copy-reverse p {
+        margin-top: 10px;
+    }
+}
+
+/* Contact */
+
+.contact-page {
+    padding: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+
+    
+}
+
+.contact-page-copy h1 {
+    color: #000000;
+    max-width: 400px;
+}
+
+.contact-page-copy p {
+    max-width: 500px;
+}
