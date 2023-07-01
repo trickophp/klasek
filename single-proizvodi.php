@@ -17,6 +17,7 @@ get_header();
         $product_carton_weight = get_field('tezina_kartona');
         $product_effect_description = get_field('opis_efekta');
         $product_effect_duration = get_field('trajanje_efekta');
+        $product_video_type = get_field('product_video_type');
         $product_video_embed = get_field('product_video_embed');
         $product_video_media = get_field('product_video_media');
     ?>
@@ -45,11 +46,11 @@ get_header();
     <div class="product-video">
         <div class="product-video-wrapper">
             <?php
-            if(!empty($product_video_embed)):
+            if(!empty($product_video_embed) && $product_video_type == 'Embed (link)'):
                 echo $product_video_embed;
             endif;
 
-            if(!empty($product_video_media)): ?>
+            if(!empty($product_video_media) && $product_video_type == 'Video fajl'): ?>
                 <video controls>
                     <source src="<?= $product_video_media ?>" type="video/mp4">
                 </video>

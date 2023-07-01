@@ -278,6 +278,17 @@
     margin: 50px auto 0;
 }
 
+.product-video {
+    padding: 50px 0 100px;
+}
+
+.product-video-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 1024px) {
     .related-products-wrapper {
         flex-direction: column;
