@@ -214,6 +214,93 @@ if ( function_exists('acf_add_local_field_group') ):
                 'prepend' => '',
                 'append' => '',
             ),
+            array(
+                'key' => 'field_64a03f75b375d',
+                'label' => 'Tip video snimka',
+                'name' => 'product_video_type',
+                'aria-label' => '',
+                'type' => 'select',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'choices' => array(
+                    'Embed (link)' => 'Embed (link)',
+                    'Video fajl' => 'Video fajl',
+                ),
+                'default_value' => false,
+                'return_format' => 'value',
+                'multiple' => 0,
+                'allow_null' => 0,
+                'ui' => 0,
+                'ajax' => 0,
+                'placeholder' => '',
+            ),
+            array(
+                'key' => 'field_64a03f05aad63',
+                'label' => 'Embed Video Proizvoda',
+                'name' => 'product_video_embed',
+                'aria-label' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_64a03f75b375d',
+                            'operator' => '==',
+                            'value' => 'Embed (link)',
+                        ),
+                    ),
+                ),
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'maxlength' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+            ),
+            array(
+                'key' => 'field_64a03faeb375e',
+                'label' => 'Media video proizvoda',
+                'name' => 'product_video_media',
+                'aria-label' => '',
+                'type' => 'image',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => array(
+                    array(
+                        array(
+                            'field' => 'field_64a03f75b375d',
+                            'operator' => '==',
+                            'value' => 'Video fajl',
+                        ),
+                    ),
+                ),
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'return_format' => 'url',
+                'library' => 'all',
+                'min_width' => '',
+                'min_height' => '',
+                'min_size' => '',
+                'max_width' => '',
+                'max_height' => '',
+                'max_size' => '',
+                'mime_types' => '',
+                'preview_size' => 'medium',
+            ),
         ),
         'location' => array(
             array(
@@ -236,7 +323,5 @@ if ( function_exists('acf_add_local_field_group') ):
     ));
     
 endif;
-    
-    
 
 ?>

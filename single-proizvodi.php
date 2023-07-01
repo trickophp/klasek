@@ -17,6 +17,8 @@ get_header();
         $product_carton_weight = get_field('tezina_kartona');
         $product_effect_description = get_field('opis_efekta');
         $product_effect_duration = get_field('trajanje_efekta');
+        $product_video_embed = get_field('product_video_embed');
+        $product_video_media = get_field('product_video_media');
     ?>
     <div class="product-summary">
         <div class="product-image">
@@ -38,6 +40,20 @@ get_header();
                 <span><a href="tel:+381 65 447 4744">+381 65 447 4744</a></span>
                 <span><a href="mailto:pirobox11@gmail.com">pirobox11@gmail.com</a></span>
             </div>
+        </div>
+    </div>
+    <div class="product-video">
+        <div class="product-video-wrapper">
+            <?php
+            if(!empty($product_video_embed)):
+                echo $product_video_embed;
+            endif;
+
+            if(!empty($product_video_media)): ?>
+                <video controls>
+                    <source src="<?= $product_video_media ?>" type="video/mp4">
+                </video>
+            <?php endif; ?>
         </div>
     </div>
     <div class="related-products">
