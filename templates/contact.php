@@ -6,7 +6,7 @@ get_header(); ?>
         <h1>Kontaktirajte nas</h1>
         <p>Ako imate bilo kakva pitanja, ili vam je potrebna pomoć. Odgovorićemo vam u što kraćem roku.</p>
     </div>
-    <?php echo do_shortcode('[ninja_form id=1]') ?>
+    <?php echo do_shortcode('[ninja_form id=2]') ?>
 </div>
 
 <?php get_footer(); ?>
