@@ -437,3 +437,16 @@
 .contact-page-copy p {
     max-width: 500px;
 }
+
+@media screen and (max-width: 1240px) {
+    .contact-page {
+        padding: 70px 30px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-page-copy h1 {
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+}
