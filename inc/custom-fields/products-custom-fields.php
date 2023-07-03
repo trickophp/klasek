@@ -215,6 +215,26 @@ if ( function_exists('acf_add_local_field_group') ):
                 'append' => '',
             ),
             array(
+                'key' => 'field_64a2fc9fd3862',
+                'label' => 'Intezitet zvuka',
+                'name' => 'product_sound_intensity',
+                'aria-label' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'maxlength' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+            ),
+            array(
                 'key' => 'field_64a03f75b375d',
                 'label' => 'Tip video snimka',
                 'name' => 'product_video_type',
@@ -322,6 +342,6 @@ if ( function_exists('acf_add_local_field_group') ):
         'show_in_rest' => 0,
     ));
     
-endif;
+endif;    
 
 ?>
