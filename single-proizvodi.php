@@ -36,7 +36,7 @@ get_header();
             <?php if(!empty($product_carton_weight)): ?><span class="product_additional_info product_carton_weight">Težina kartona: <?= $product_carton_weight ?></span><?php endif; ?>
             <?php if(!empty($product_effect_description)): ?><span class="product_additional_info product_effect_description">Opis efekta: <?= $product_effect_description ?></span><?php endif; ?>
             <?php if(!empty($product_effect_duration)): ?><span class="product_additional_info product_effect_description">Trajanje efekta: <?= $product_effect_duration ?></span><?php endif; ?>
-            <?php if(!empty($product_sound_intensity)): ?><span class="product_additional_info product_sound_intensity">Trajanje efekta: <?= $product_sound_intensity ?></span><?php endif; ?>
+            <?php if(!empty($product_sound_intensity)): ?><span class="product_additional_info product_sound_intensity">Intezitet zvuka: <?= $product_sound_intensity ?></span><?php endif; ?>
             <div class="product-info-hr"></div>
             <div class="order-product">
                 <span class="order-product-text">Poručite proizvod</span>
