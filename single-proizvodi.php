@@ -18,6 +18,8 @@ get_header();
         $product_effect_description = get_field('opis_efekta');
         $product_effect_duration = get_field('trajanje_efekta');
         $product_sound_intensity = get_field('product_sound_intensity');
+        $product_number_of_shots = get_field('product_number_of_shots');
+        $product_caliber = get_field('product_caliber');
         $product_video_type = get_field('product_video_type');
         $product_video_embed = get_field('product_video_embed');
         $product_video_media = get_field('product_video_media');
@@ -37,6 +39,8 @@ get_header();
             <?php if(!empty($product_effect_description)): ?><span class="product_additional_info product_effect_description">Opis efekta: <?= $product_effect_description ?></span><?php endif; ?>
             <?php if(!empty($product_effect_duration)): ?><span class="product_additional_info product_effect_description">Trajanje efekta: <?= $product_effect_duration ?></span><?php endif; ?>
             <?php if(!empty($product_sound_intensity)): ?><span class="product_additional_info product_sound_intensity">Intezitet zvuka: <?= $product_sound_intensity ?></span><?php endif; ?>
+            <?php if(!empty($product_number_of_shots)): ?><span class="product_additional_info product_number_of_shots">Pakovanje ispaljuje <?= $product_number_of_shots ?> puta</span><?php endif; ?>
+            <?php if(!empty($product_caliber)): ?><span class="product_additional_info product_caliber">Kalibar: <?= $product_caliber ?></span><?php endif; ?>
             <div class="product-info-hr"></div>
             <div class="order-product">
                 <span class="order-product-text">Poručite proizvod</span>
