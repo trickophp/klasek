@@ -235,6 +235,48 @@ if ( function_exists('acf_add_local_field_group') ):
                 'append' => '',
             ),
             array(
+                'key' => 'field_64a3083b9a138',
+                'label' => 'Broj ispaljivanja',
+                'name' => 'product_number_of_shots',
+                'aria-label' => '',
+                'type' => 'number',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'min' => '',
+                'max' => '',
+                'placeholder' => '',
+                'step' => '',
+                'prepend' => '',
+                'append' => '',
+            ),
+            array(
+                'key' => 'field_64a308169a137',
+                'label' => 'Kalibar',
+                'name' => 'product_caliber',
+                'aria-label' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'maxlength' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+            ),
+            array(
                 'key' => 'field_64a03f75b375d',
                 'label' => 'Tip video snimka',
                 'name' => 'product_video_type',
@@ -342,6 +384,6 @@ if ( function_exists('acf_add_local_field_group') ):
         'show_in_rest' => 0,
     ));
     
-endif;    
+endif;
 
 ?>
