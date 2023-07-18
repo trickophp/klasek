@@ -32,11 +32,11 @@ get_header();
             <h1><?php the_title(); ?></h1>
             <?php if(!empty($product_serial)): ?><span class="product_additional_info product_serial">Kataloški broj: <?= $product_serial ?></span><?php endif; ?>
             <?php if(!empty($product_description)): ?><p class="product-description"><?= $product_description ?></p><?php endif; ?>
-            <?php if(!empty($product_class)): ?><span class="product_additional_info product_class">Klasa: <?= $product_class ?></span><?php endif; ?>
+            <?php if(!empty($product_class)): ?><span class="product_additional_info product_class">Razred: <?= $product_class ?></span><?php endif; ?>
             <?php if(!empty($product_packing)): ?><span class="product_additional_info product_packing">Pakovanje: <?= $product_packing ?></span><?php endif; ?>
-            <span class="product_additional_info product_packing">CE Sertifikovano</span>
-            <?php if(!empty($product_carton_weight)): ?><span class="product_additional_info product_carton_weight">Težina kartona: <?= $product_carton_weight ?></span><?php endif; ?>
-            <?php if(!empty($product_effect_description)): ?><span class="product_additional_info product_effect_description">Opis efekta: <?= $product_effect_description ?></span><?php endif; ?>
+            <!-- <span class="product_additional_info product_packing">CE Sertifikovano</span> -->
+            <?php /* if(!empty($product_carton_weight)): ?><span class="product_additional_info product_carton_weight">Težina kartona: <?= $product_carton_weight ?></span><?php endif; */ ?>
+            <?php if(!empty($product_effect_description)): ?><span class="product_additional_info product_effect_description">Opis: <?= $product_effect_description ?></span><?php endif; ?>
             <?php if(!empty($product_effect_duration)): ?><span class="product_additional_info product_effect_description">Trajanje efekta: <?= $product_effect_duration ?></span><?php endif; ?>
             <?php if(!empty($product_sound_intensity)): ?><span class="product_additional_info product_sound_intensity">Intezitet zvuka: <?= $product_sound_intensity ?></span><?php endif; ?>
             <?php if(!empty($product_number_of_shots)): ?><span class="product_additional_info product_number_of_shots">Pakovanje ispaljuje <?= $product_number_of_shots ?> puta</span><?php endif; ?>
